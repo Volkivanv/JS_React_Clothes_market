@@ -1,7 +1,5 @@
 import "../App.css";
 import FooterProduct from "./footer/FooterProduct";
-import FooterReference from "./footer/FooterReference";
-import FooterSubscribe from "./footer/FooterSubscribe";
 import Header from "./header/Header";
 
 function Product() {
