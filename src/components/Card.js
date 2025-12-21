@@ -15,6 +15,7 @@ function Card(props) {
                 <p>
                     {props.card.description}
                 </p>
+                <h5>{props.card.size}</h5>
                 <h5>{props.card.price}</h5>
             </div>
         </div>

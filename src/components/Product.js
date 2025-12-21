@@ -6,6 +6,7 @@ import ProductsContainerProduct from "./ProductsContainerProduct";
 
 function Product() {
     return (
+
         <div className="box-content">
             <h2 style={{ display: "none" }}>Site about clothes</h2>
 
