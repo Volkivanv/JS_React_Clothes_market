@@ -1,7 +1,7 @@
 import "../App.css";
 import MainBegin from "./MainBegin";
 import OfferContainer from "./OfferContainer";
-import ProductsContainer from "./ProductsContainer";
+import ProductsContainer from "./ProductsContainerIndex";
 
 function IndexMain() {
     return (
