@@ -5,21 +5,22 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Product from "./components/Product";
 import Cart from "./components/Cart";
 import Registration from "./components/Registration";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { fetchProductData } from "./actions/productActons";
 import { useEffect } from "react";
+import { shuffle } from "./utils/shuffle";
 
 function App() {
-    // const dispatch = useDispatch();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-    // const handleDispatch = () => {
-    //     dispatch(fetchProductData()); // thunk
-    // // }
+    const dispatch = useDispatch();
+
+    useEffect(() => {
+        dispatch(fetchProductData());
+    }, [dispatch]);
+
+    const savedCards = useSelector((state) => state.products.products);
+    
 
 
-    // useEffect(()=>{
-    //     dispatch(fetchProductData());
-    // },[dispatch])
 
     return (
         

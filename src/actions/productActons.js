@@ -35,7 +35,7 @@ export const fetchProductData = () => async dispatch => {
        // const toDoData = await response.json();
 
     
-            const products = JSON.parse(dataItems);;
+            const products = JSON.parse(dataItems);
           //  console.log(products);
             dispatch({type: 'FETCH_PRODUCT_SUCCESS', payload: products});
 

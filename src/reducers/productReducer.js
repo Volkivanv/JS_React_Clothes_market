@@ -1,25 +1,7 @@
 import { FETCH_PRODUCT_FAILURE, FETCH_PRODUCT_START, FETCH_PRODUCT_SUCCESS } from "../actions/productActons";
 
 const initialState = [
-    {
-        
-        id: 13131,
-        title: "ELLERY X M'O CAPSULE",
-        imgUrl: "./img/image_1.png",
-        imgAlt: "image_1",
-        description: "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
-        size : "L",
-        price: 51
-    },
-    {
-        id: 131342,
-        title: "ELLERY X M'O CAPSULE",
-        imgUrl: "./img/image_2.png",
-        imgAlt: "image_2",
-        description: "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
-        size : "M",
-        price: 52
-    },
+
 ];
 
 // Редьюсер для обработки действий с задачами

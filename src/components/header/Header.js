@@ -83,9 +83,11 @@ function Header() {
                 <button className="hide">
                     <img src="./img/icon_cabinet.svg" alt="icon_cabinet" />
                 </button>
-                <button className="hide">
+                <a href="/cart">
+                <button  className="hide">
                     <img src="./img/icon_basket.svg" alt="icon_basket" />
                 </button>
+                </a>
                 <div className="counter">
                     <span>5</span>
                 </div>

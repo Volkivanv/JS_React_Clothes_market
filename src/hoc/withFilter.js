@@ -1,7 +1,8 @@
 //Фильтр
 
-const withFilter = (cards, filter) => {
-    return cards.filter((card) => filter.includes(card.size));
+const withFilter = (cards, filterArray) => {
+    if (cards === undefined) return cards
+    return cards.filter((card) => filterArray.includes(card.size));
 };
 
 export default withFilter;

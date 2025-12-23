@@ -26,7 +26,7 @@ function ProductsContainerCatalog() {
 
     const cards = withFilter(savedCards, filter0);
 
-//   const cards = savedCards;
+//  const cards = savedCards;
 
     return (
         <div className="products container">

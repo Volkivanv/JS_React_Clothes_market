@@ -18,7 +18,9 @@ function ProductsContainer() {
             <h2>Fetured Items</h2>
             <h3>Shop for items based on what we featured in this week</h3>
             <ProductsPanel cards={savedCards !== undefined ? savedCards : []} count={6} />
+            <a href="/catalog">
             <button className="Browse">Browse All Product</button>
+            </a>
         </div>
     );
 }
